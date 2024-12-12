@@ -1,5 +1,5 @@
 reports = []
-with open("../inputs/day2.txt") as file:
+with open("../inputs/02.txt") as file:
     for line in file:
         reports.append([int(num) for num in line.split(" ")])
 # Part 1

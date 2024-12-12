@@ -45,7 +45,7 @@ for line in pageorders:
         while relevant_constraints:
             k = [k for k, v in relevant_constraints.items() if v == []]
             if len(k) != 1:
-                print("faiL")
+                print("fail")
                 break
             k = k[0]
             ordered.append(k)

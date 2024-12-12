@@ -1,7 +1,7 @@
 import re
 
 input = ""
-with open("../inputs/day3.txt") as file:
+with open("../inputs/03.txt") as file:
     for line in file:
         input += line
 search_str = r"mul\((\d{1,3}),(\d{1,3})\)"

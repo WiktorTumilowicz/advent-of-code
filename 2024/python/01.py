@@ -1,6 +1,6 @@
 list1 = []
 list2 = []
-with open("../inputs/day1.txt") as file:
+with open("../inputs/01.txt") as file:
     for line in file:
         nums = line.split("   ")
         list1.append(int(nums[0]))

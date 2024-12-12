@@ -1,7 +1,7 @@
 import re
 
 input = []
-with open("../inputs/day4.txt") as file:
+with open("../inputs/04.txt") as file:
     for line in file:
         input.append(line)
 #input = [
