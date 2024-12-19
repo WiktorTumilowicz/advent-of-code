@@ -45,11 +45,11 @@ print(s1 * s2 * s3 * s4)
 # Visualize the grid
 def print_grid(grid):
     for row in grid:
-        print(" ".join("." if x == 0 else "#" for x in row))
+        print(" ".join(" " if x == 0 else "#" for x in row))
 
 
 # Animate the grid, hopefully the tree is visible
-for second in range(7330, 7350):
+for second in range(7000, 8000):
     grid = update_grid((second))
 
     os.system("clear")
